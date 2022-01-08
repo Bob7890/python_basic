@@ -1,0 +1,150 @@
+three types of variables
+	-- string:  name = "Bob"
+	-- integer: x = 2
+	-- float: f = 1.2
+
+Output Variable
+	-- name
+
+1+2
+	-- output: 3
+
+"c" + "at"
+	-- output: cat
+
+"c"*3
+	-- output: ccc
+
+Slicing (index)
+	-- name = "BobDemers"
+	-- name[3] 
+		output: D
+
+	-- name[0:4]
+		output: BobD
+
+	-- name[3:]
+		output: Demers
+
+Built-in Methods
+	- print(name)
+		output: BobDemers
+	type(x)
+		output: type of the variable
+
+Everything in python is an object.
+
+	dir(int), dir(float), dir(str)
+		-- things you can do with that object.
+
+	help(int), help(float), help(str)
+		-- full help on fuctions
+
+	help(str.title)
+		-- return a version of a string where words are titlecased
+
+	name.upper()
+		-- returns copy of string converted to uppercase
+
+Keywords
+	-- can't use as variables
+
+For-Loop
+	-- for letter in name:
+		print(i*3)
+
+		output: prints each letter 3 times on separate lines
+
+Functions
+	-- def hello():
+		print("hello")
+
+	Call function: 
+	-- hello()
+
+DocString
+	-- documentation string
+	"""this is a doc string"""
+
+	# this is a comment
+
+Containers
+	-- List
+		l = []
+			-- define empty list
+		l.append(x)
+			-- add object to the list
+	-- Dict (dictionary ie map)
+		d = {}
+			-- define empty dictionary
+		d[1] = "one"
+		d["test"] = "two"
+			-- add dictionary items
+	-- Tuple
+		t = ()
+			-- can't be changed, fixed
+		t = (1, 4, 3)
+
+Booleans
+	== (equivalent)
+	1 == 1
+		-- True
+	1 == 0
+		-- False
+	1 != 0
+		-- True
+	True == 1
+		-- True
+	False == 0
+		-- True
+
+While Loops
+	-- loop with a condition
+
+	while x < 10:
+		print(x)
+		x += 1
+	-- prints out 1 through 9
+
+If...Else...
+
+	if x < 10:
+		print("Yes")
+	else:
+		print("No")
+
+modulo / remainder
+	-- what is left over after dividing
+
+	3 % 2
+		-- result is 1
+
+Functions
+	def <function name(<parameters>):
+
+	eg: def is_even(number):
+			if number % 2 == 0:
+				print("Is Even")
+			else:
+				print("Is Odd")
+
+Range Function
+
+	eg: r = range(2, 11, 2)
+		start = 2, through 11, step by 2
+
+Slicing Function
+	-- name[start:stop:step]
+		eg: name = "Samuel"
+			name[0:5:2] = Sme
+
+Import 
+	-- Import other files and modules
+		eg: import math
+
+
+
+
+
+
+
