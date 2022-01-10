@@ -29,6 +29,8 @@ Slicing (index)
 Built-in Methods
 	- print(name)
 		output: BobDemers
+	- print("bob", "is", 20) output: bob is 20
+
 	type(x)
 		output: type of the variable
 
@@ -132,6 +134,8 @@ Range Function
 
 	eg: r = range(2, 11, 2)
 		start = 2, through 11, step by 2
+	eg: r = range(10)
+		0 -> 9
 
 Slicing Function
 	-- name[start:stop:step]
@@ -142,9 +146,53 @@ Import
 	-- Import other files and modules
 		eg: import math
 
+Negative Indexing
+	-- name = "Samuel"
+		eg: name[-1] output: l
 
+Casting
+	eg: numbers = "3"
+		y = int(numbers)
 
+String Methods
+	-- name = "Bob demers"
+	-- name.lower() output: bob demers
+	-- name.capitalize() outpuit: Bob demers
+	-- name.title() output: Bob Demers
 
+Keyword "in"
+	numbers = "2468"
+	-- "2" in numbers output: True
+
+Mutable
+	-- can be changed
+	l = [1, 2, 3]
+	l[0] = 5
+
+Immutable
+	-- cannot be changed
+		eg: strings, tuples
+
+Length Function
+	-- l = [1, 2, 3]
+		eg: len(l) output: 3
+		eg: len("Bob Demers") output: 10
+
+Nested For Loop
+	for i in range(3):
+    print("I is", i)
+    for j in range(3):
+        print(" J is", j)
+
+Variable Swap
+	a = 1
+	b = 2
+	a, b = b, a
+	print(a, b)
+
+Keyword Return
+	def name():
+		return "Test"
 
 
 
