@@ -74,7 +74,7 @@ item_D = d_2.popitem()
 print(item_D)
 
 # setdefault() method: help(dict.setdefault), insert key with a value of default if key is not in dictionary.
-# cannot hcange the value of a key if already inserted.
+# cannot change the value of a key if already inserted.
 print(d_3)
 d_3.setdefault("Drop")
 d_4.setdefault("A")

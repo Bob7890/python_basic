@@ -1,9 +1,6 @@
 # Builtins
 
-# Do not need to import built in functions
-
 # Built-in Sum Function
-
 l = list(range(5))
 ttl = 0
 for i in l:
